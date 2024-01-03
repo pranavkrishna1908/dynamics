@@ -13,3 +13,4 @@ def fib0(n, memo = {}):
     memo[n] = answer
     return answer
 print(fib0(4), fib0(19))
+# optimise using the tabular dynamic programiming 
