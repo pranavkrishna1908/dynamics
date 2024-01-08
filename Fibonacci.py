@@ -15,5 +15,5 @@ def fib0(n, memo = {}):
 
 import cProfile
 import re
-cProfile.run('fib(50)')
-cProfile.run('fib0(50)')
+cProfile.run('fib(20)')
+cProfile.run('fib0(900)')
